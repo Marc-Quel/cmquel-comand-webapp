@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="stylesheet" href="comandCreation.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <title>Creador de Comandes</title>
+</head>
+<body>
+    <div class="section">
+        <div class="topnav">
+            <button type="button"class="back" id="btn" role="button">Enrere</button>
+        </div>
+        <div class="explicacio">
+            <h1>Crea una comanda</h1>
+        </div>
+        <div class="inputs1">
+            <div>
+                <label class="ncomanda" for="ncomanda">Num de comanda</label>
+                <input id="ncomanda" type="text" value="" name="ncomanda">
+            </div>
+            <div>
+                <label class="client" for="client">Client</label>
+                <input id="client" type="text" value="" name="client">
+            </div>
+            <div>
+                <label class="laser" for="laser">Làser</label>
+                <input id="laser" type="text" value="" name="laser">
+            </div>
+            
+        </div>
+        <div class="inputs2">
+            <div>
+                <label class="materia" for="mat">Materia primera</label>
+                <input id="mat" type="text" value="" name="mat">
+            </div>
+            <div>
+                <label class="mec" for="mec">Mecanitzats</label>
+                <input id="mec" type="text" value="" name="mec">
+            </div>
+            <div>
+                <label class="tract" for="tract">Tractament</label>
+                <input id="tract" type="text" value="" name="tract">
+            </div>
+        </div>
+        <div class="inputs3">
+            <div>
+                <label class="trans" for="trans">Transport</label>
+                <input id="trans" type="text" value="" name="trans">
+            </div>
+            <div>
+                <label class="hores" for="hores">Hores de fabricació</label>
+                <input id="hores" type="text" value="" name="hores">
+            </div>
+            <div>
+                <label class="venda" for="venda">Import de venda</label>
+                <input id="venda" type="text" value="" name="venda">
+            </div>
+        </div>
+        <div class="div-add">
+            <button type="button"class="back" id="add" role="button">Afegir Comanda</button>
+        </div>
+        <div class="div-clean">
+            <button type="button"class="back" id="clean" role="button">Netejar</button>
+        </div>
+    </div>
+    <script type="module" src="/pages/comandCreation/comandCreation.js"></script>
+    <script src="https://unpkg.com/node-fetch@3.1.0/src/index.js"></script>
+</body>
+</html>

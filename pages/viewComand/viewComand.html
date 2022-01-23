@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="stylesheet" href="viewComand.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <title>Visualitzador de Comandes</title>
+</head>
+<body>
+    <div class="section">
+        <div class="topnav">
+            <button type="button"class="back" id="btn" role="button">Enrere</button>
+        </div>
+        <div class="buscador">
+          <p class="lletrabuscar">Buscar comanda específica</p>
+          <div class="inputs1">
+            <div class="box">
+                <label for="client">Comanda</label>
+                <input id="comandId" type="text" value="" name="client">
+            </div>
+            <div class="box">
+                <label for="client">Client</label>
+                <input id="client" type="text" value="" name="client">
+            </div>
+            
+          </div>
+          <div class="search">
+            <button type="button"class="caca" id="search" role="button">Buscar</button>
+          </div>
+        </div>
+        <div class="titol">
+          <h1>Taula de comandes</h1>
+        </div>
+        <div>
+            <table class="table" id="table">
+                <thead class="aux" id="generar">
+                  <th scope="col">Num Comanda</th>
+                  <th scope="col">Client</th>
+                  <th scope="col">Laser</th>
+                  <th scope="col">Material</th>
+                  <th scope="col">Mecanitzats</th>
+                  <th scope="col">Tractament</th>
+                  <th scope="col">Transport</th>
+                  <th scope="col">Hores</th>                  
+                  <th scope="col">Import de venda</th>
+                  <th scope="col">Benefici(€)</th>
+                  <th scope="col">Benefici(%)</th>
+                </thead>
+                <tbody>
+                <tr id="first-row">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                  <!-- Generated whit Js -->
+                </tbody>
+              </table>     
+          </div>
+        <div id="div-clean" class="div-clean">
+          <button type="button"class="back" id="clean" role="button">Netejar</button>
+        </div>
+    </div>
+    <script src="viewComand.js"></script>
+</body>
+</html>

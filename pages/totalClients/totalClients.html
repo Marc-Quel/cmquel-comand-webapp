@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="stylesheet" href="totalClients.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <title>Visualitzador de Clients</title>
+</head>
+<body>
+    <div class="section">
+        <div class="topnav">
+            <button type="button"class="back" id="btn" role="button">Enrere</button>
+        </div>
+        <div class="titol">
+          <h1>Taula de clients</h1>
+        </div>
+        <div>
+            <table class="table" id="table">
+                <thead class="aux" id="generar">
+                  <th scope="col">Client</th>
+                  <th scope="col">Nombre de comandes fetes</th>
+                  <th scope="col">Benefici(€)</th>
+                  <th scope="col">Benefici(%)</th>
+                </thead>
+                <tbody>
+                <tr id="first-row">
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                  <!-- Generated whit Js -->
+                </tbody>
+              </table>      
+        </div>
+    </div>
+    <script src="totalClients.js"></script>
+</body>
+</html>

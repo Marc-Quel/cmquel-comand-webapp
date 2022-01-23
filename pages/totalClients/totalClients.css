@@ -1,0 +1,117 @@
+body {
+  background: #B4AAA9;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topnav {
+    height: 55px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.titol {
+  color: #ffe0bf;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffe0bf;
+  font-size: 35pt;
+}
+.table{
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #ffe0bf;
+  
+  border-collapse: collapse;
+  border-spacing: 2px;
+  border-radius: 10px;
+}
+thead {
+  height: 50px;
+}
+th {
+  padding: 0 15px;
+}
+tr{
+  margin-bottom: 5px;
+}
+#first-row{
+  display: none;
+}
+.table-body {
+  background: #fbeee0;
+}
+td {
+  padding: 20px 15px;
+  text-align: center;
+  border: none;
+  font-size: 14pt;
+}
+.pe {
+  color: green;
+}
+.pe5 {
+  color: green;
+}
+.pe5 {
+  color: red;
+}
+.pe4 {
+  color: red;
+}
+.pe3 {
+  color: red;
+}
+.pe2 {
+  color: red;
+}
+.pe1 {
+  color: red;
+}
+.pe0 {
+  color: red;
+}
+.beneficis {
+  color: green;
+}
+.back {
+    margin-top: 7px;
+    margin-left: 7px;
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .back:hover {
+    background-color: #fff;
+  }
+  
+  .back:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .back {
+      min-width: 120px;
+      padding: 0 25px;
+    }
+  }

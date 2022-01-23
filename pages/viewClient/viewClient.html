@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="stylesheet" href="viewClient.css">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+    <title>Visualitzador d'un client</title>
+</head>
+<body>
+    <div class="section">
+        <div class="topnav">
+            <button type="button"class="back" id="btn" role="button">Enrere</button>
+        </div>
+        <div class="explicacio">
+            <h1>Introdueix el client que vols buscar</h1>
+        </div>
+        <div class="inputs1">
+            <div class="box">
+                <label for="client">Client</label>
+                <input id="client" type="text" value="" name="client">
+            </div>
+            <div class="search">
+                <button type="button"class="back" id="search" role="button">Buscar</button>
+            </div>
+        </div>
+        <div>
+            <table class="table" id="table">
+                <thead class="aux" id="generar">
+                  <th scope="col">Num Comanda</th>
+                  <th scope="col">Laser</th>
+                  <th scope="col">Material</th>
+                  <th scope="col">Mecanitzats</th>
+                  <th scope="col">Tractament</th>
+                  <th scope="col">Transport</th>
+                  <th scope="col">Hores</th>
+                  <th scope="col">Import de venda</th>
+                  <th scope="col">Benefici(€)</th>
+                  <th scope="col">Benefici(%)</th>
+                </thead>
+                <tbody>
+                    <tr id="first-row">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                  <!-- Generated whit Js -->
+                </tbody>
+              </table>      
+        </div>
+        <div>
+            <table class="tabletotal" id="tabletotal">
+                <thead class="aux" id="generar">
+                  <th scope="col">Numero de comandes</th>
+                  <th scope="col">Benefici Total(€)</th>
+                  <th scope="col">Benefici Total(%)</th>
+                </thead>
+                <tbody>
+                    <tr id="first-row1">
+                        <td></td>
+                        <td></td>
+                      </tr>
+                  <!-- Generated whit Js -->
+                </tbody>
+              </table>      
+        </div>
+        <div class="butons">
+            <div class="clean">
+                <button type="button"class="back" id="clean" role="button">Netejar</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="viewClient.js"></script>
+</body>
+</html>
